@@ -1,5 +1,6 @@
 package com.nikolayvaklinov.tacocloud;
 
+import java.util.Date;
 import java.util.List;
 // end::allButValidation[]
 import javax.validation.constraints.NotNull;
@@ -9,6 +10,10 @@ import lombok.Data;
 
 @Data
 public class Taco {
+
+    private Long id;
+
+    private Date createdAt;
 
     // end::allButValidation[]
     @NotNull
