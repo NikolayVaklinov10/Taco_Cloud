@@ -17,6 +17,11 @@
         <java.version>11</java.version>
     </properties>
     <dependencies>
+        <!--  modern Kafka for Spring dependency for messages -->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
         <!--  modern ActiveMQ Artemis dependency for messages -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
